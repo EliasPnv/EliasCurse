@@ -8,11 +8,13 @@ public class BankAccount {
     public void deposit(double amount) { //внесение средств
         balance = balance + amount;
         System.out.println("Внесено: " + amount);
+        System.out.println("Баланс теперь равен: " + balance);
     }
 
     public void withdraw(double amount) { //снятие средств
         balance = balance - amount;
         System.out.println("Снято со счёта: " + amount);
+        System.out.println("Баланс теперь равен: "+ balance);
     }
 
     public void display() { //Вывод баланса
